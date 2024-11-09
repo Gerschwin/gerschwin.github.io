@@ -38,8 +38,67 @@
 									<h1>Generic</h1>
 								</header>
 
-								<span class="image main"><img src="images/pic11.jpg" alt="" /></span>
+								<span class="image main"><img src="images/Ampeg_big.png" alt="" /></span>
+								
+								<p>Bass amp simulators are limited when it comes to Linux, unless you use Windows plugins of course. So the mission is to build a virtual rig that is adaptable and sounds great… lets do it!</p>
+								
+								<hr class="major" />
 
+								<h2>Ampeg SVT & SVT-810E</h2>
+								<h3>Preamp</h3>
+								
+								<p>For years the Ampeg SVT bass amps have been the mainstay of the gigging musician, have a read at some history here.</p>
+								
+								<blockquote>SVT originally stood for Super Vacuum Tube, but Ampeg has since revised the meaning of the acronym to Super Valve Technology, with the word “valve” referring to the vacuum tubes (called “valves” in Britain and some other regions) used in the amp.</blockquote>
+								
+								There is an Ampeg SVT LV2 plugin included as part of the mighty Guitarix suite which offers some lovely tube based preamp simulation and it sounds pretty close to the real deal!
+								
+								GxSVT comes as part of Guitarix gxplugins or can be installed standalone. As it’s LV2 format it will work in your favourite DAW, inside Carla or other prefered plugin host.
+								
+								GxSVT Github
+								Github GxPlugins
+								gxSVT
+								Ampeg 61XX series SVT Bass Preamp simulator
+								
+									Analogue simulation of the bright channel from the Ampeg 61XX series SVT Bass Preamp.
+									Additional selectable Cabinet simulation to simulate the Mesa Bogie V-Twin cabinet, tweaked to behave similar to a 4 x10 Celestion.
+								
+								Once you load it up and first thing you’ll notice is that It doesn’t look anything like an Ampeg SVT, no issue, it’s the sound that counts right? Turn on the cabinet simulation, twiddle the knobs and already it comes close… but it will sound even better with something beefier, a 8 x 10 cabinet!
+								Cabinet
+								
+								We can achieve sounds if different cabinets using Impulse Responses.
+								
+									An impulse response (or IR) is a sonic measurement of the sound of a speaker, room or microphone in relation to a sound source. In guitar terms, this is usually your amp.
+								
+								Shiftline have a great IR pack which includes, amongst others, two Ampeg SVT-810E impulses.
+								
+								Ampeg SVT-810E: “Another variation of an impulse that has appeared among the stock impulses of the CabZone and the Olympic MkIIIS. This time, a different set of mics was used, and they were positioned in a slightly different way. The lows are a bit boosted, while the highs are a bit scooped.This way, there are no annoying highs, and the overall sound is massive.”
+								
+								Ampeg SVT-810E Olympic MkIIIS Edition 2: “Just like in the one before it, the highs in this impulse have been altered (towards reduction this time). This one feels universally usable to us — perhaps it will become your main one, too.”
+								
+								To utilise the impulses there is a great plugin included in the Linux Studio Plugins Project
+								
+								Impulse Responses Mono – Impulsantworten Mono
+								Impulsantworten Mono
+								
+								Once installed and loaded, the impulse response is loaded within Impulsantworten. Turn off CAB in gxSVT.
+								Compression
+								
+								Bass compression is an important part of a mix, without a compressor each bass note will fade out quickly causing a loss of bottom end and fullness in between each note. How to compress a bass is a whole other topic, experiment with threshold and ratio to start.
+								
+								I’m using Calf Compressor but there are a multitude of others available. Calf is available in most distros or can be installed from source.
+								Saturation
+								
+								Saturation involves emulating audio being driven through analogue hardware equipment which adds harmonic distortion. It enhances the frequencies already in a sound.
+								
+								A very versatile saturation plugin is Chow Tape Model. The website has a deb package or source.
+								
+									Chow Tape Model is a digital emulation of a reel-to-reel analog tape machine. 
+								
+								This one will involve some experimentation by start out using the presets in Chow and listen how it subtlety changes the sound, you can achieve some weird and wacky stuff, it’s very flexible. Try Fat II and Fat III presets and go from there.
+								
+								All of these plugins can be loaded within your DAW of choice, here I used Carla to host them and patch them into Reaper, it’s all good. Experiment and enjoy!
+								
 								<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
 								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
 								<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
