@@ -114,7 +114,7 @@ a {
   border-bottom: dotted 1px;
   color: #f56a6a;
   text-decoration: none;
-  font-weight: 600; }
+   }
   a:hover {
     border-bottom-color: #f56a6a;
     color: #f56a6a !important; }
@@ -2079,7 +2079,7 @@ button,
   display: -ms-flex;
   display: flex;
   border-bottom: solid 5px #f56a6a;
-  padding: 1.6em 0 1em 0;
+  padding: 6em 0 1em 0;
   position: relative; }
   #header > * {
     -moz-flex: 1;
@@ -2091,8 +2091,7 @@ button,
     border-bottom: 0;
     color: inherit;
     font-family: "Roboto Slab", serif;
-    /*background-color: coral;*/
-    font-size: 2em; }
+    font-size: 1.125em; }
   #header .icons {
     text-align: right; }
   @media screen and (max-width: 1680px) {
