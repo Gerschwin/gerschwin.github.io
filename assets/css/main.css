@@ -1809,9 +1809,9 @@ input, select, textarea {
 		}
 
 		.author img {
-			border-radius: 100%;
+			
 			display: block;
-			width: 4em;
+			width: 14em;
 		}
 
 		.author:hover .name {

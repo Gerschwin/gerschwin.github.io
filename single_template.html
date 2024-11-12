@@ -99,20 +99,119 @@
 <!-- ############################################################################################################################## -->
 <!-- ############################################################################################################################## -->
 						<!-- Post -->
-							<article class="post">
-								<header>
-									<div class="title">
-										<h2><a href="#">Magna sed adipiscing</a></h2>
-										<p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
-									</div>
-									<div class="meta">
-										<time class="published" datetime="2015-11-01">November 1, 2015</time>
-										<a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a>
-									</div>
-								</header>
-								<span class="image featured"><img src="images/pic01.jpg" alt="" /></span>
-								<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
-								<p>Nunc quis dui scelerisque, scelerisque urna ut, dapibus orci. Sed vitae condimentum lectus, ut imperdiet quam. Maecenas in justo ut nulla aliquam sodales vel at ligula. Sed blandit diam odio, sed fringilla lectus molestie sit amet. Praesent eu tortor viverra lorem mattis pulvinar feugiat in turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce ullamcorper tellus sit amet mattis dignissim. Phasellus ut metus ligula. Curabitur nec leo turpis. Ut gravida purus quis erat pretium, sed pellentesque massa elementum. Fusce vestibulum porta augue, at mattis justo. Integer sed sapien fringilla, dapibus risus id, faucibus ante. Pellentesque mattis nunc sit amet tortor pellentesque, non placerat neque viverra. </p>
+
+												<!-- Post -->
+												<article class="post">
+													<header>
+														<div class="title">
+															<h2><a href="single_template.html">Virtual bass rig in Linux</a></h2>
+															<p>Build a virtual bass rig that is adaptable and sounds great using free resources.</p>
+														</div>
+														<div class="meta">
+															<time class="published" datetime="2024-11-11">November 11th 2024</time>
+															<a href="#" class="author"><span class="name">Neil</span><img src="images/avatar.jpg" alt="" class=""author"/></a>
+														</div>
+													</header>
+
+								<span class="image featured"><img src="images/A-01.png" alt="" /></span>
+					
+					<!-- ##################################################################### -->
+								<p>Bass amp simulators are limited when it comes to Linux, unless you use Windows plugins of course. So the mission is to build a virtual rig that is adaptable and sounds great…..</p>
+								<h2>Ampeg SVT & SVT-810E</h2>
+					
+
+					<h3>Preamp</h3>
+					
+					<p>For years the Ampeg SVT bass amps have been the mainstay of the gigging musician, have a read at some history <a href="https://ampeg.com/history/" target="_blank">here</a>.</p>
+					
+					<blockquote>SVT originally stood for Super Vacuum Tube, but Ampeg has since revised the meaning of the acronym to Super Valve Technology, with the word “valve” referring to the vacuum tubes (called “valves” in Britain and some other regions) used in the amp.</blockquote>
+					
+					<p>There is an Ampeg SVT LV2 plugin included as part of the mighty <a href="http://guitarix.org/" target="_blank">Guitarix</a> suite which offers some lovely tube based preamp simulation and it sounds pretty close to the real deal!</p>
+					
+					<p>GxSVT comes as part of Guitarix gxplugins or can be installed standalone.<br>
+						As it’s LV2 format it will work in your favourite DAW, inside <a href="https://kx.studio/Applications:Carla" target="_blank">Carla</a> or other prefered plugin host.</p>
+					
+					<p><a href="https://github.com/brummer10/GxSVT.lv2" target="_blank">GxSVT Github</a><br>
+					<a href="https://github.com/brummer10/GxPlugins.lv2" target="_blank">Github GxPlugins</a></p>
+
+					<span class="image main">
+					<figure><img src="images/GxSVT-1.png" alt="Ampeg 61XX series SVT Bass Preamp simulator" />
+					</span><sup>Ampeg SVT Bass Preamp simulator</sup>
+					</figure>					
+					
+					<p><blockquote>Analogue simulation of the bright channel from the Ampeg 61XX series SVT Bass Preamp.<br>
+					Additional selectable Cabinet simulation to simulate the Mesa Bogie V-Twin cabinet, tweaked to behave similar to a 4 x10 Celestion.</blockquote></p>
+				
+					<p>Once you load it up and first thing you’ll notice is that It doesn’t look anything like an Ampeg SVT, no issue, it’s the sound that counts right? Turn on the cabinet simulation, twiddle the knobs and already it comes close… but it will sound even better with something beefier, a 8 x 10 cabinet!</p>
+					
+					<hr class="major" />
+
+					<h3>Cabinet</h3>
+					
+					We can achieve sounds if different cabinets using Impulse Responses.
+					
+					<p><blockquote>An impulse response (or IR) is a sonic measurement of the sound of a speaker, room or microphone in relation to a sound source. In guitar terms, this is usually your amp.</blockquote></p>
+					
+					<p><a href="https://shift-line.com/irpackbass" target="_blank">Shiftline</a> have a great IR pack which includes, amongst others, two Ampeg SVT-810E impulses.</p>
+					
+					<p><b>Ampeg SVT-810E:</b> <i>“Another variation of an impulse that has appeared among the stock impulses of the CabZone and the Olympic MkIIIS. This time, a different set of mics was used, and they were positioned in a slightly different way. The lows are a bit boosted, while the highs are a bit scooped.This way, there are no annoying highs, and the overall sound is massive.”</i></p>
+					
+					<p><b>Ampeg SVT-810E Olympic MkIIIS Edition 2:</b> <i>“Just like in the one before it, the highs in this impulse have been altered (towards reduction this time). This one feels universally usable to us — perhaps it will become your main one, too.”</i></p>
+					
+					<p>To utilise the impulses there is a great plugin included in the <a href="https://lsp-plug.in/" target="_blank">Linux Studio Plugins Project</a></p>
+					
+					<p><a href="https://lsp-plug.in/?page=manuals&section=impulse_responses_mono" target=""_blank">Impulse Responses Mono - Impulsantworten Mono</a></p>
+					
+					<span class="image main">
+					<figure><img src="images/Impulsantworten_Mono_IR.png" alt="Impulsantworten_Mono" />
+					</span><sup>Impulsantworten Mono</sup>
+					</figure>
+
+					<p>Once installed and loaded, the impulse response is loaded within Impulsantworten. <br><b>Turn off CAB in gxSVT.</b></p>
+
+					<hr class="major" />
+
+					<h3>Compression</h3>
+					
+					<p>Bass compression is an important part of a mix, without a compressor each bass note will fade out quickly causing a loss of bottom end and fullness in between each note. How to compress a bass is a whole other topic, experiment with threshold and ratio to start.</p>
+					
+					<p>I’m using <a href="https://calf-studio-gear.org/" target="_blank">Calf</a> Compressor but there are a multitude of others available. Calf is available in most distros or can be installed from source.</p>
+					
+					<span class="image main">
+					<figure><img src="images/Calf_Compressor_Mono.png" alt="Calf Compressor" />
+					</span><sup>Calf Compressor Mono</sup>
+					</figure>
+
+					<hr class="major" />
+					
+					<h3>Saturation</h3>
+					
+					<p>Saturation involves emulating audio being driven through analogue hardware equipment which adds harmonic distortion. It enhances the frequencies already in a sound.</p>
+					
+					<p>A very versatile saturation plugin is <a href="https://chowdsp.com/products.html#tape" target="_blank">Chow Tape Model</a>. The website has a deb package or source.</p>
+					
+					<p><blockquote><b>Chow Tape Model is a digital emulation of a reel-to-reel analog tape machine.</b></blockquote></p>
+					
+					<p>This one will involve some experimentation by start out using the presets in Chow and listen how it subtlety changes the sound, you can achieve some weird and wacky stuff, it’s very flexible. Try Fat II and Fat III presets and go from there.</p>
+					
+					<span class="image main">
+					<figure><img src="images/Chow_Tape_Model.png" alt="Chow Tape Model" />
+					</span><sup>Chow Tape Model</sup>
+					</figure>
+					
+					<hr class="major" />
+
+					<p>All of these plugins can be loaded within your DAW of choice, here I used Carla to host them and patch them into Reaper, it’s all good. Experiment and enjoy!</p>
+					
+					<span class="image main">
+					<figure><img src="images/Carla_Bass_Patch-TO_EDIT.png" alt="Carla patch" />
+					</span><sup>Carla patch</sup>
+					</figure>
+
+					<!-- ##################################################################### -->
+								
+				</article>	
+								
 								<footer>
 									<ul class="stats">
 										<li><a href="#">General</a></li>
@@ -120,7 +219,7 @@
 										<li><a href="#" class="icon solid fa-comment">128</a></li>
 									</ul>
 								</footer>
-							</article>
+							
 
 					</div>
 
